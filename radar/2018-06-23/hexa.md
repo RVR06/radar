@@ -1,11 +1,10 @@
 ---
 title: Hexagonal Architecture
 ring: adopt
-quadrant: tools-and-patterns
+quadrant: patterns
 ---
 
 [![](https://img.shields.io/badge/blog%20series-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://archicionado.com/p/hexagonal-architecture/)
-[![](https://img.shields.io/badge/romain%20vasseur-834187?logo=ubuntu&logoColor=000&style=flat)](https://github.com/RVR06)
 
 A well-known anti-pattern is the blob one ie a workspace - or more accurately a space - where everything is mixed up together, ending up with tight coupling, blurred boundaries, high maintenance cost, low ability to evolve, and more…
 
