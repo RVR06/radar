@@ -83,13 +83,13 @@
   ],
   "flags": {
     "new": {
-      "color": "#f1235a",
+      "color": "#c20a7b",
       "title": "New",
       "titleShort": "N",
       "description": "New in this version"
     },
     "changed": {
-      "color": "#40a7d1",
+      "color": "#f5c400",
       "title": "Changed",
       "titleShort": "C",
       "description": "Recently changed"
