@@ -1,4 +1,4 @@
-![](public\logo.svg)
+![](public/logo.svg)
 
 # ARCHICIONADO
 
