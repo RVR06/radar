@@ -31,7 +31,7 @@
     {
       "id": "patterns",
       "title": "Methods & Patterns",
-      "description": "Structuring mindset to support software development.",
+      "description": "Structuring mindsets to support software development.",
       "color": "#F73718"
     },
     {
@@ -125,10 +125,10 @@
     "zoomIn": "Dive in",
     "filterByTag": "Filter by Tag",
     "footer": "©2025, Archicionado Inc. Unauthorized use, distribution or duplication is prohibited.",
-    "notUpdated": "This item was not recently updated. Refer to matching ring to gauge pertinence.",
+    "notUpdated": "This item has not been updated recently. Check its ring classification to assess its current relevance.",
     "notFound": "404 - Page not found",
-    "pageAbout": "Reading Grid",
-    "pageOverview": "Technologies Overview",
+    "pageAbout": "Walkthrough",
+    "pageOverview": "Glossary",
     "pageSearch": "Search",
     "searchPlaceholder": "What are you looking for?",
     "metaDescription": ""

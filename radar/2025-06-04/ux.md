@@ -4,4 +4,6 @@ ring: adopt
 quadrant: staples
 ---
 
-Level-up skills by attending from zero to hero UX course.
+[![](https://img.shields.io/badge/figma-ef8d22?logo=hackthebox&logoColor=000&style=flat)](https://www.figma.com/)
+
+Level-up skills by attending **Strategic Design** UX course.
