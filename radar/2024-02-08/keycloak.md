@@ -4,9 +4,9 @@ ring: adopt
 quadrant: tools
 ---
 
-[![](https://img.shields.io/badge/post-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://archicionado.com/p/rbac/)
-[![](https://img.shields.io/badge/doc-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://www.keycloak.org/)
-[![](https://img.shields.io/badge/github-de5f85?logo=github&logoColor=000&style=flat)](https://github.com/RVR06/rbac)
+[![](https://img.shields.io/badge/blog_post-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://archicionado.com/p/rbac/)
+[![](https://img.shields.io/badge/keycloak-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://www.keycloak.org/)
+[![](https://img.shields.io/badge/101-de5f85?logo=github&logoColor=000&style=flat)](https://github.com/RVR06/rbac)
 
 Open Source Identity and Access Management.
 - Add authentication to applications and secure services with minimum effort.

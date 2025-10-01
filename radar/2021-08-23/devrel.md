@@ -1,5 +1,5 @@
 ---
-title: Developer relations
+title: Developer Relations
 ring: adopt
 quadrant: patterns
 ---
