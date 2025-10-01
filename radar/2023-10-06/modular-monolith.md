@@ -1,7 +1,7 @@
 ---
 title: Modular Monolith
 ring: adopt
-quadrant: patterns
+quadrant: staples
 ---
 
 [![](https://img.shields.io/badge/blog%20post-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://archicionado.com/p/modular-monolith/)

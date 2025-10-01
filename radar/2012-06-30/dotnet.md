@@ -1,5 +1,5 @@
 ---
 title: .NET
 ring: adopt
-quadrant: staples
+quadrant: tools
 ---

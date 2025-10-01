@@ -1,6 +1,6 @@
 ---
 title: Functional Programming
-ring: trial
+ring: adopt
 quadrant: staples
 ---
 

@@ -1,10 +1,8 @@
 ---
 title: gRPC
 ring: adopt
-quadrant: staples
+quadrant: tools
 ---
 
 
-
-
-•  gRPC, IPC
+•  gRPC, IPC, protobuf

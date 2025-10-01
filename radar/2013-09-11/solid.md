@@ -1,5 +1,5 @@
 ---
 title: SOLID
 ring: adopt
-quadrant: patterns
+quadrant: staples
 ---
