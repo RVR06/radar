@@ -1,6 +1,6 @@
 ---
 title: Kanban
-ring: adopt
+ring: trial
 quadrant: patterns
 ---
 

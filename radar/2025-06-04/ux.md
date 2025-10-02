@@ -1,6 +1,6 @@
 ---
 title: User eXperience
-ring: adopt
+ring: trial
 quadrant: staples
 ---
 

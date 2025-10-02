@@ -1,6 +1,6 @@
 ---
 title: Technology Radar
-ring: adopt
+ring: trial
 quadrant: patterns
 ---
 

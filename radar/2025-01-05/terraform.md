@@ -1,6 +1,6 @@
 ---
 title: Terraform
-ring: adopt
+ring: trial
 quadrant: platforms-and-operations
 ---
 

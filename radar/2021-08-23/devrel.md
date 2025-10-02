@@ -1,6 +1,6 @@
 ---
 title: Developer Relations
-ring: adopt
+ring: trial
 quadrant: patterns
 ---
 
