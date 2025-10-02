@@ -13,3 +13,5 @@ Adopt the reader point of view, surfacing compelling information at the top:
 - I can refine my understanding by parsing options decision was made of
 - Eventually, I can read over consequences to better grasp pros and cons for every options
 - Ultimately, I can dive in underlying discussion process
+
+![](/img/2024-06-06/adr.png)

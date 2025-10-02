@@ -20,3 +20,5 @@ Layer is a common way to:
 - Define coupling and communication rules between those bunches  
 
 Hexagonal architecture is one of those particular layered patterns that gains some exposure in the past 2 decades and that deserves attention as it structures the way we think about crafting modern software.
+
+![](/img/2018-06-23/hexa.svg)
