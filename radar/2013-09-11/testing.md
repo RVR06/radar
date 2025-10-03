@@ -12,3 +12,21 @@ Testing provides several key benefits:
 - **Regression protection** through guard clauses
 - **Living documentation** that evolves with the code
 
+```cs
+[Theory]
+[InlineData(4, 2, 2)]
+[InlineData(15, 3, 5)]
+public void DivideWorks(int a, int b, int expected)
+{
+   var calculator = new Calculator();
+   Assert.Equal(expected, sut.Divide(a, b)); 
+}
+
+
+[Fact]
+public void DivideByZeroThrows() 
+{
+   var calculator = new Calculator();
+   Assert.Throws<DivideByZeroException>(() => sut.Divide(5, 0));
+}
+```
