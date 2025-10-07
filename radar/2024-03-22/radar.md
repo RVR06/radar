@@ -2,6 +2,7 @@
 title: Technology Radar
 ring: trial
 quadrant: patterns
+tags: [PRACTITIONER]
 ---
 
 [![](https://img.shields.io/badge/facilitating%20software%20architecture-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://learning.oreilly.com/library/view/facilitating-software-architecture/9781098151850/)

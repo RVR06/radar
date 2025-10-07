@@ -2,6 +2,7 @@
 title: HUGO
 ring: adopt
 quadrant: tools
+tags: [PRACTITIONER]
 ---
 
 [![](https://img.shields.io/badge/HUGO-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://gohugo.io/)

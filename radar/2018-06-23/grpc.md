@@ -2,6 +2,7 @@
 title: gRPC
 ring: adopt
 quadrant: tools
+tags: [PRACTITIONER]
 ---
 
 [![](https://img.shields.io/badge/gRPC-ef8d22?logo=hackthebox&logoColor=000&style=flat)](https://grpc.io/)

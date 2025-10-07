@@ -2,6 +2,7 @@
 title: Unit Testing
 ring: adopt
 quadrant: staples
+tags: [PRACTITIONER]
 ---
 
 [![](https://img.shields.io/badge/TDD-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://en.wikipedia.org/wiki/Test-driven_development)

@@ -2,6 +2,7 @@
 title: Keycloak
 ring: adopt
 quadrant: tools
+tags: [PRACTITIONER]
 ---
 
 [![](https://img.shields.io/badge/blog_post-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://archicionado.com/p/rbac/)

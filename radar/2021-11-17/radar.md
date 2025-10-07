@@ -2,6 +2,7 @@
 title: Technology Radar
 ring: assess
 quadrant: patterns
+tags: [NOVICE]
 ---
 
 [![](https://img.shields.io/badge/thoughtworks-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://www.thoughtworks.com/radar)

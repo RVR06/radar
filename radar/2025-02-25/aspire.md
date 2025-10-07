@@ -2,6 +2,7 @@
 title: .NET Aspire
 ring: adopt
 quadrant: platforms-and-operations
+tags: [PRACTITIONER]
 ---
 
 [![](https://img.shields.io/badge/aspire-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://learn.microsoft.com/en-us/dotnet/aspire/whats-new/)

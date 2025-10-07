@@ -2,6 +2,7 @@
 title: Developer Relations
 ring: trial
 quadrant: patterns
+tags: [PRACTITIONER]
 ---
 
 ![](https://img.shields.io/badge/sharepoint-19967d?logo=serverfault&logoColor=000&style=flat)

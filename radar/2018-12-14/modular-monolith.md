@@ -2,6 +2,7 @@
 title: Modular Monolith
 ring: trial
 quadrant: staples
+tags: [PRACTITIONER]
 ---
 
 [![](https://img.shields.io/badge/actor%20model-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://en.wikipedia.org/wiki/Actor_model)

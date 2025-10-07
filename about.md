@@ -9,3 +9,9 @@ I categorize each item into one of these rings:
 - **Trial**: I have successfully implemented this technology and suggest taking a closer look at it. The aim here is to scrutinize these items more closely with the intention of potentially elevating them to the 'Adopt' level.
 - **Assess**: I have experimented with this technology and find it promising. I recommend exploring these items when you encounter a specific need for the technology in your project.
 - **Hold**: This category is somewhat unique. Unlike the others, it advises discontinuing or refraining from using certain technologies. This does not necessarily imply that they are inherently bad; it may often be acceptable to use them in existing projects. However, I move items here when I believe they should no longer be employed, as I have identified better options or alternatives.
+
+I use tags to indicate my proficiency level with each technology:
+- **NOVICE**:  Basic understanding, learning phase
+- **PRACTITIONER**:  Regular use, comfortable implementation
+- **EXPERT**:  Deep knowledge, can teach others
+- **THOUGHT LEADER**:  Innovating, contributing to community

@@ -2,6 +2,7 @@
 title: Architecture Decision Record
 ring: adopt
 quadrant: patterns
+tags: [EXPERT]
 ---
 
 [![](https://img.shields.io/badge/sample-de5f85?logo=github&logoColor=000&style=flat)](https://github.com/RVR06/aap/blob/main/adrs/custom/0014-fragment.md)

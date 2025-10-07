@@ -2,6 +2,7 @@
 title: Architecture Decision Record
 ring: adopt
 quadrant: Security and Compliance
+tags: [PRACTITIONER]
 ---
 
 [![](https://img.shields.io/badge/101-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://rvr06.github.io/c4-bootcamp/docs/adr/)

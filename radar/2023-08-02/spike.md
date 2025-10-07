@@ -2,6 +2,7 @@
 title: Spike
 ring: adopt
 quadrant: patterns
+tags: [PRACTITIONER]
 ---
 
 [![](https://img.shields.io/badge/blog%20post-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://archicionado.com/p/spike/)

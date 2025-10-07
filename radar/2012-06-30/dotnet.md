@@ -2,6 +2,7 @@
 title: .NET
 ring: adopt
 quadrant: tools
+tags: [EXPERT]
 ---
 
 [![](https://img.shields.io/badge/.NET-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://dotnet.microsoft.com/en-us/)

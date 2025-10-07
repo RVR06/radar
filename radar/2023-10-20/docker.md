@@ -2,6 +2,7 @@
 title: Docker
 ring: adopt
 quadrant: platforms-and-operations
+tags: [PRACTITIONER]
 ---
 
 [![](https://img.shields.io/badge/docker_as_a_service-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://archicionado.com/p/docker-as-a-service/)

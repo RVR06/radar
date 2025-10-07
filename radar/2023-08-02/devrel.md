@@ -2,6 +2,7 @@
 title: Developer Relations
 ring: adopt
 quadrant: patterns
+tags: [EXPERT]
 ---
 
 ![](https://img.shields.io/badge/empowerment-19967d?logo=serverfault&logoColor=000&style=flat)

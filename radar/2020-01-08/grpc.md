@@ -2,6 +2,7 @@
 title: gRPC
 ring: adopt
 quadrant: tools
+tags: [EXPERT]
 ---
 
 [![](https://img.shields.io/badge/SHM-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://archicionado.com/p/shared-memory/)

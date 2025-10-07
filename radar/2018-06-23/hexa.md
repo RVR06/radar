@@ -2,6 +2,7 @@
 title: Hexagonal Architecture
 ring: adopt
 quadrant: staples
+tags: [EXPERT]
 ---
 
 [![](https://img.shields.io/badge/blog%20series-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://archicionado.com/p/hexagonal-architecture/)

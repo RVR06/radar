@@ -2,6 +2,7 @@
 title: Reactive Programming
 ring: trial
 quadrant: staples
+tags: [NOVICE]
 ---
 
 [![](https://img.shields.io/badge/reactive_extensions-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://introtorx.com/)

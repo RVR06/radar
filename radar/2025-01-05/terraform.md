@@ -2,6 +2,7 @@
 title: Terraform
 ring: trial
 quadrant: platforms-and-operations
+tags: [PRACTITIONER]
 ---
 
 [![](https://img.shields.io/badge/terraform-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://www.terraform.io/)

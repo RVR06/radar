@@ -2,6 +2,7 @@
 title: Unit Testing
 ring: assess
 quadrant: staples
+tags: [NOVICE]
 ---
 
 [![](https://img.shields.io/badge/xunit-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://xunit.net/?tabs=cs)

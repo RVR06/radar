@@ -2,6 +2,7 @@
 title: User eXperience
 ring: trial
 quadrant: staples
+tags: [NOVICE]
 ---
 
 [![](https://img.shields.io/badge/balsamiq-ef8d22?logo=hackthebox&logoColor=000&style=flat)](https://balsamiq.com/)

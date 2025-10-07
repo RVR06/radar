@@ -2,6 +2,7 @@
 title: Functional Programming
 ring: adopt
 quadrant: staples
+tags: [PRACTITIONER]
 ---
 
 [![](https://img.shields.io/badge/101-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://github.com/readme/guides/functional-programming-basics)

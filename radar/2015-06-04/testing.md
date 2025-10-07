@@ -2,6 +2,7 @@
 title: Unit Testing
 ring: adopt
 quadrant: staples
+tags: [EXPERT]
 ---
 
 [![](https://img.shields.io/badge/AAA-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://blog.ploeh.dk/2013/06/24/a-heuristic-for-formatting-code-according-to-the-aaa-pattern/) 

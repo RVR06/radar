@@ -2,6 +2,7 @@
 title: gRPC
 ring: adopt
 quadrant: tools
+tags: [PRACTITIONER]
 ---
 
 [![](https://img.shields.io/badge/IPC-ef8d22?logo=hackthebox&logoColor=000&style=flat)](https://learn.microsoft.com/en-us/aspnet/core/grpc/interprocess?view=aspnetcore-9.0)
