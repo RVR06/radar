@@ -1,0 +1,808 @@
+{
+  "id" : 1,
+  "name" : "SHared Memory",
+  "description" : "Blazing fast data exchanges.",
+  "lastModifiedDate" : "2025-10-07T14:37:59Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJTSGFyZWQgTWVtb3J5IiAiQmxhemluZyBmYXN0IGRhdGEgZXhjaGFuZ2VzLiIgewoJIWlkZW50aWZpZXJzIGhpZXJhcmNoaWNhbAoJIWltcGxpZWRSZWxhdGlvbnNoaXBzIGZhbHNlCgkKCW1vZGVsIHsKCQlzaG0gPSBzb2Z0d2FyZVN5c3RlbSAiU0hhcmVkLU1lbW9yeSIgIk1lbW9yeSB0aGF0IG1heSBiZSBzaW11bHRhbmVvdXNseSBhY2Nlc3NlZCBieSBtdWx0aXBsZSBwcm9ncmFtcyB3aXRoIGFuIGludGVudCB0byBwcm92aWRlIGNvbW11bmljYXRpb24gYW1vbmcgdGhlbSBvciBhdm9pZCByZWR1bmRhbnQgY29waWVzLiIgIiNidXMsICNleHRlcm5hbCwgI3NobSIKCQlhc3BpcmUgPSBzb2Z0d2FyZVN5c3RlbSAiLk5FVCBBc3BpcmUiICJPcGluaW9uYXRlZCwgY2xvdWQgcmVhZHkgc3RhY2sgZm9yIGJ1aWxkaW5nIG9ic2VydmFibGUsIHByb2R1Y3Rpb24gcmVhZHksIGRpc3RyaWJ1dGVkIGFwcGxpY2F0aW9ucy4iICIjZXh0ZXJuYWwsICNhc3BpcmUsICN3ZWIiIHsKCQkJZGFzaGJvYXJkID0gY29udGFpbmVyICJEYXNoYm9hcmQiICJkZXNjcmlwdGlvbiIgIkJsYXpvciIgIiN3ZWIiCgkJfQoJCQoJCWdyZWV0ZXIgPSBzb2Z0d2FyZVN5c3RlbSAiR3JlZXRlciIgIlNob3djYXNlcyBkYXRhIGV4Y2hhbmdlcyBiZXR3ZWVuIGFjdG9ycyBsZXZlcmFnaW5nIFNITS4iICIjZG90bmV0IiB7CgkJCXByb2R1Y2VyID0gY29udGFpbmVyICJQcm9kdWNlciIgIlByb2R1Y2VzIGRhdGEuIFN0b3JlcyBkYXRhIGluIFNITS4gTm90aWZpZXMgZGF0YSBVSUQuIiAiQyMiICIjZG90bmV0IiB7CgkJCQlzZXJ2aWNlID0gY29tcG9uZW50ICJTZXJ2aWNlIiAiUHJvZHVjZXMgZGF0YSIgIkMjIiAiIgoJCQkJc3RvcmUgPSBjb21wb25lbnQgIlN0b3JlIiAiU3RvcmVzIGRhdGEiICJDIyIgIiIgIHsKCQkJCQktPiBzaG0gInN0b3JlcyBpbnRvIiAieyBEYXRhIH0iICIiCgkJCQl9CgkJCQkKCQkJCXNlcnZpY2UgLT4gc3RvcmUgInBlcnNpc3RzIiAieyBEYXRhIH0iICIiCgkJCQlzdG9yZSAtPiBzZXJ2aWNlICJub3RpZmllcyIgInsgRGF0YUlkIH0iICIiCgkJCQkKCQkJCS0+IHNobSAic3RvcmVzIGludG8iICJ7IERhdGEgfSIgIiIKCQkJCS0+IGFzcGlyZSAiZXhwb3J0cyB0ZWxlbWV0cnkiICJnUlBDIHwgT1RFTCIgIiNvdGVsIgoJCQkJLT4gYXNwaXJlLmRhc2hib2FyZCAiZXhwb3J0cyB0ZWxlbWV0cnkiICJnUlBDIHwgT1RFTCIgIiNvdGVsIgoJCQl9CgkJCQoJCQljb25zdW1lciA9IGNvbnRhaW5lciAiQ29uc3VtZXIiICJBc2tzIGZvciBkYXRhIHByb2R1Y3Rpb24uIENvbnN1bWVzIGRhdGEgZnJvbSBpdHMgZGF0YSBVSUQgdGhyb3VnaCBTSE0iICJDIyB8IFdvcmtlciIgIiNkZXNrdG9wLCAjZG90bmV0IiB7CgkJCQktPiBwcm9kdWNlciAicXVlcmllcyIgImdSUEMiICIiCgkJCQktPiBzaG0gImZldGNoZXMgZnJvbSIgInsgRGF0YUlkIH0iICIiCgkJCQkKCQkJCS0+IGFzcGlyZSAiZXhwb3J0cyB0ZWxlbWV0cnkiICJnUlBDIHwgT1RFTCIgIiNvdGVsIgoJCQkJLT4gYXNwaXJlLmRhc2hib2FyZCAiZXhwb3J0cyB0ZWxlbWV0cnkiICJnUlBDIHwgT1RFTCIgIiNvdGVsIgoJCQl9CgkJCQoJCQktPiBzaG0gInN0b3JlcyBpbnRvICYgZmV0Y2hlcyBmcm9tIiAiIiAiIgoJCQktPiBhc3BpcmUgImV4cG9ydHMgdGVsZW1ldHJ5IiAiZ1JQQyB8IE9URUwiICIjb3RlbCIKCQkJCgkJfQoJCQoJCWxvY2FsXyA9IGRlcGxveW1lbnRFbnZpcm9ubWVudCAibG9jYWwiIHsKCQkJZGVwbG95bWVudE5vZGUgIkxhcHRvcCIgIiIgIldpbmRvd3MxMSIgIiN3aW5kb3dzIiAxIHsKCQkJCWFzcGlyZV8gPSBkZXBsb3ltZW50Tm9kZSAiT3JjaGVzdHJhdGlvbiIgIiIgIi5ORVQgQXNwaXJlIiAiI2FzcGlyZSIgMSB7CgkJCQkJZGFzaGJvYXJkXyA9IGNvbnRhaW5lckluc3RhbmNlIGFzcGlyZS5kYXNoYm9hcmQgIiIgIiIKCQkJCQlwcm9kdWNlcl8gPSBjb250YWluZXJJbnN0YW5jZSBncmVldGVyLnByb2R1Y2VyICIiICIiCgkJCQkJY29uc3VtZXJfID0gY29udGFpbmVySW5zdGFuY2UgZ3JlZXRlci5jb25zdW1lciAiIiAiIgoJCQkJfQoJCQkJCgkJCQlzaG1fID0gc29mdHdhcmVTeXN0ZW1JbnN0YW5jZSBzaG0gIiIgIiNleHRlcm5hbCIKCQkJfQoJCX0KCQkKCQljb21wb3NlXyA9IGRlcGxveW1lbnRFbnZpcm9ubWVudCAiY29tcG9zZSIgewoJCQlkZXBsb3ltZW50Tm9kZSAiTGFwdG9wIiAiIiAiV2luZG93czExIiAiI3dpbmRvd3MiIDEgewoJCQkJZGVwbG95bWVudE5vZGUgIk9yY2hlc3RyYXRpb24iICIiICJEb2NrZXIgQ29tcG9zZSIgIiNkb2NrZXIiIDEgewoJCQkJCWRlcGxveW1lbnROb2RlICJkb3RuZXQvYXNwbmV0OjguMCIgIiIgIkRvY2tlciIgIiNkb2NrZXIiIDEgewoJCQkJCQlwcm9kdWNlcl8gPSBjb250YWluZXJJbnN0YW5jZSBncmVldGVyLnByb2R1Y2VyICIiICIiCgkJCQkJfQoJCQkJCWRlcGxveW1lbnROb2RlICJkb3RuZXQvcnVudGltZTo4LjAiICIiICJEb2NrZXIiICIjZG9ja2VyIiAxIHsKCQkJCQkJY29uc3VtZXJfID0gY29udGFpbmVySW5zdGFuY2UgZ3JlZXRlci5jb25zdW1lciAiIiAiIgoJCQkJCX0KCQkJCQlkZXBsb3ltZW50Tm9kZSAiYXNwaXJlIiAiIiAiRG9ja2VyIiAiI2RvY2tlciIgMSB7CgkJCQkJCWRhc2hib2FyZF8gPSBjb250YWluZXJJbnN0YW5jZSBhc3BpcmUuZGFzaGJvYXJkICIiICIiCgkJCQkJfQoJCQkJCQoJCQkJCXNobV8gPSBzb2Z0d2FyZVN5c3RlbUluc3RhbmNlIHNobSAiIiAiI2V4dGVybmFsIgoJCQkJfQoJCQl9CgkJfQoJfQoJdmlld3MgewoJCXRoZW1lIGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9SVlIwNi9jb3JuaWZlci1jb250cmliL21haW4vdGhlbWVzL3RvcG9sb2d5L3RoZW1lLmpzb24KCQl0aGVtZSBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vUlZSMDYvY29ybmlmZXItY29udHJpYi9tYWluL3RoZW1lcy9oZXJhbGRyeTIvdGhlbWUuanNvbgoJCQoJCXN0eWxlcyB7CgkJCWVsZW1lbnQgIiNidXMiIHsKCQkJCXdpZHRoIDkwMAoJCQl9CgkJCWVsZW1lbnQgIiNzaG0iIHsKCQkJCXN0cm9rZSAjRkYwMDZFCgkJCX0KCQkJCgkJCXJlbGF0aW9uc2hpcCAiI290ZWwiIHsKCQkJCWNvbG91ciAjRjVBODAwCgkJCQlzdHlsZSBkb3R0ZWQKCQkJfQoJCX0KCQkKCQlwcm9wZXJ0aWVzIHsKCQkJInN0cnVjdHVyaXpyLnNvcnQiICJjcmVhdGVkIgoJCX0KCQkKCQlzeXN0ZW1MYW5kc2NhcGUgIkM0X0wiIHsKCQkJaW5jbHVkZSAqCgkJCWF1dG9MYXlvdXQgbHIKCQl9CgkJCgkJc3lzdGVtQ29udGV4dCBncmVldGVyICJDNF8xIiB7CgkJCWluY2x1ZGUgKgoJCQlhdXRvTGF5b3V0IGxyCgkJfQoJCQoJCWNvbnRhaW5lciBncmVldGVyICJDNF8yIiB7CgkJCWluY2x1ZGUgKgoJCX0KCQkKCQljb21wb25lbnQgZ3JlZXRlci5wcm9kdWNlciAiQzRfNF9wcm9kdWNlciIgewoJCQlpbmNsdWRlICoKCQl9CgkJCgkJZGVwbG95bWVudCAqIGxvY2FsXyAiQzRfRF9sb2NhbCIgewoJCQlpbmNsdWRlICoKCQl9CgkJCgkJZGVwbG95bWVudCAqIGNvbXBvc2VfICJDNF9EX2NvbXBvc2UiIHsKCQkJaW5jbHVkZSAqCgkJfQoJCQoJCWR5bmFtaWMgZ3JlZXRlciAiQzRfV19ncmVldGVyIiB7CgkJCWdyZWV0ZXIuY29uc3VtZXIgLT4gZ3JlZXRlci5wcm9kdWNlcgoJCQlncmVldGVyLnByb2R1Y2VyIC0+IHNobQoJCQlncmVldGVyLmNvbnN1bWVyIC0+IHNobQoJCX0KCQkKCQlkeW5hbWljIGdyZWV0ZXIucHJvZHVjZXIgIkM0X1dfcHJvZHVjZXIiIHsKCQkJZ3JlZXRlci5wcm9kdWNlci5zZXJ2aWNlIC0+IGdyZWV0ZXIucHJvZHVjZXIuc3RvcmUKCQkJZ3JlZXRlci5wcm9kdWNlci5zdG9yZSAtPiBzaG0KCQkJZ3JlZXRlci5wcm9kdWNlci5zdG9yZSAtPiBncmVldGVyLnByb2R1Y2VyLnNlcnZpY2UKCQkJCgkJfQoJfQp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "softwareSystems" : [ {
+      "id" : "2",
+      "tags" : "Element,Software System,#external,#aspire,#web",
+      "properties" : {
+        "structurizr.dsl.identifier" : "aspire"
+      },
+      "name" : ".NET Aspire",
+      "description" : "Opinionated, cloud ready stack for building observable, production ready, distributed applications.",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "3",
+        "tags" : "Element,Container,#web",
+        "properties" : {
+          "structurizr.dsl.identifier" : "aspire.dashboard"
+        },
+        "name" : "Dashboard",
+        "description" : "description",
+        "technology" : "Blazor",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System,#dotnet",
+      "properties" : {
+        "structurizr.dsl.identifier" : "greeter"
+      },
+      "name" : "Greeter",
+      "description" : "Showcases data exchanges between actors leveraging SHM.",
+      "relationships" : [ {
+        "id" : "19",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "9f368757-3f6d-4155-a10c-974a2f0cae8e"
+        },
+        "sourceId" : "4",
+        "destinationId" : "1",
+        "description" : "stores into & fetches from"
+      }, {
+        "id" : "20",
+        "tags" : "Relationship,#otel",
+        "properties" : {
+          "structurizr.dsl.identifier" : "0825ae43-bde5-447a-8fb9-a1de36d71660"
+        },
+        "sourceId" : "4",
+        "destinationId" : "2",
+        "description" : "exports telemetry",
+        "technology" : "gRPC | OTEL"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "5",
+        "tags" : "Element,Container,#dotnet",
+        "properties" : {
+          "structurizr.dsl.identifier" : "greeter.producer"
+        },
+        "name" : "Producer",
+        "description" : "Produces data. Stores data in SHM. Notifies data UID.",
+        "relationships" : [ {
+          "id" : "12",
+          "tags" : "Relationship,#otel",
+          "properties" : {
+            "structurizr.dsl.identifier" : "e6c7d307-56d8-42d4-9d79-7eda16319fa0"
+          },
+          "sourceId" : "5",
+          "destinationId" : "2",
+          "description" : "exports telemetry",
+          "technology" : "gRPC | OTEL"
+        }, {
+          "id" : "13",
+          "tags" : "Relationship,#otel",
+          "properties" : {
+            "structurizr.dsl.identifier" : "1e63c21b-628b-45c2-a743-7cad48cad440"
+          },
+          "sourceId" : "5",
+          "destinationId" : "3",
+          "description" : "exports telemetry",
+          "technology" : "gRPC | OTEL"
+        }, {
+          "id" : "11",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "3ddf424e-7231-4205-a8a5-a13ad4d480c1"
+          },
+          "sourceId" : "5",
+          "destinationId" : "1",
+          "description" : "stores into",
+          "technology" : "{ Data }"
+        } ],
+        "technology" : "C#",
+        "components" : [ {
+          "id" : "6",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "greeter.producer.service"
+          },
+          "name" : "Service",
+          "description" : "Produces data",
+          "relationships" : [ {
+            "id" : "9",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "c4e581a6-be2a-4a72-98b6-4e52796702b3"
+            },
+            "sourceId" : "6",
+            "destinationId" : "7",
+            "description" : "persists",
+            "technology" : "{ Data }"
+          } ],
+          "technology" : "C#",
+          "documentation" : { }
+        }, {
+          "id" : "7",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "greeter.producer.store"
+          },
+          "name" : "Store",
+          "description" : "Stores data",
+          "relationships" : [ {
+            "id" : "10",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "1eeb8324-ff1b-492b-a5e9-3ab21d26f286"
+            },
+            "sourceId" : "7",
+            "destinationId" : "6",
+            "description" : "notifies",
+            "technology" : "{ DataId }"
+          }, {
+            "id" : "8",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "610950d2-f48f-4619-b899-72b553828fea"
+            },
+            "sourceId" : "7",
+            "destinationId" : "1",
+            "description" : "stores into",
+            "technology" : "{ Data }"
+          } ],
+          "technology" : "C#",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "14",
+        "tags" : "Element,Container,#desktop,#dotnet",
+        "properties" : {
+          "structurizr.dsl.identifier" : "greeter.consumer"
+        },
+        "name" : "Consumer",
+        "description" : "Asks for data production. Consumes data from its data UID through SHM",
+        "relationships" : [ {
+          "id" : "18",
+          "tags" : "Relationship,#otel",
+          "properties" : {
+            "structurizr.dsl.identifier" : "5e02e977-14ba-4b27-b829-7d3af7913df7"
+          },
+          "sourceId" : "14",
+          "destinationId" : "3",
+          "description" : "exports telemetry",
+          "technology" : "gRPC | OTEL"
+        }, {
+          "id" : "16",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "ec11e268-8ae3-4424-88a8-aa248fa03a22"
+          },
+          "sourceId" : "14",
+          "destinationId" : "1",
+          "description" : "fetches from",
+          "technology" : "{ DataId }"
+        }, {
+          "id" : "17",
+          "tags" : "Relationship,#otel",
+          "properties" : {
+            "structurizr.dsl.identifier" : "4d19d8ca-a1cf-4fd1-9f00-86501d091c27"
+          },
+          "sourceId" : "14",
+          "destinationId" : "2",
+          "description" : "exports telemetry",
+          "technology" : "gRPC | OTEL"
+        }, {
+          "id" : "15",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "182b7e6e-8923-4348-9953-3d801877bcfc"
+          },
+          "sourceId" : "14",
+          "destinationId" : "5",
+          "description" : "queries",
+          "technology" : "gRPC"
+        } ],
+        "technology" : "C# | Worker",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "1",
+      "tags" : "Element,Software System,#bus,#external,#shm",
+      "properties" : {
+        "structurizr.dsl.identifier" : "shm"
+      },
+      "name" : "SHared-Memory",
+      "description" : "Memory that may be simultaneously accessed by multiple programs with an intent to provide communication among them or avoid redundant copies.",
+      "location" : "Unspecified",
+      "documentation" : { }
+    } ],
+    "deploymentNodes" : [ {
+      "id" : "21",
+      "tags" : "Element,Deployment Node,#windows",
+      "properties" : {
+        "structurizr.dsl.identifier" : "local_.110ce14c-a037-4667-aa53-af003767b082"
+      },
+      "name" : "Laptop",
+      "environment" : "local",
+      "technology" : "Windows11",
+      "instances" : "1",
+      "children" : [ {
+        "id" : "22",
+        "tags" : "Element,Deployment Node,#aspire",
+        "properties" : {
+          "structurizr.dsl.identifier" : "local_.110ce14c-a037-4667-aa53-af003767b082.aspire_"
+        },
+        "name" : "Orchestration",
+        "environment" : "local",
+        "technology" : ".NET Aspire",
+        "instances" : "1",
+        "containerInstances" : [ {
+          "id" : "24",
+          "tags" : "Container Instance",
+          "properties" : {
+            "structurizr.dsl.identifier" : "local_.110ce14c-a037-4667-aa53-af003767b082.aspire_.producer_"
+          },
+          "relationships" : [ {
+            "id" : "30",
+            "sourceId" : "24",
+            "destinationId" : "29",
+            "description" : "stores into",
+            "technology" : "{ Data }",
+            "linkedRelationshipId" : "11"
+          }, {
+            "id" : "25",
+            "sourceId" : "24",
+            "destinationId" : "23",
+            "description" : "exports telemetry",
+            "technology" : "gRPC | OTEL",
+            "linkedRelationshipId" : "13"
+          } ],
+          "environment" : "local",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "5"
+        }, {
+          "id" : "23",
+          "tags" : "Container Instance",
+          "properties" : {
+            "structurizr.dsl.identifier" : "local_.110ce14c-a037-4667-aa53-af003767b082.aspire_.dashboard_"
+          },
+          "environment" : "local",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "3"
+        }, {
+          "id" : "26",
+          "tags" : "Container Instance",
+          "properties" : {
+            "structurizr.dsl.identifier" : "local_.110ce14c-a037-4667-aa53-af003767b082.aspire_.consumer_"
+          },
+          "relationships" : [ {
+            "id" : "27",
+            "sourceId" : "26",
+            "destinationId" : "24",
+            "description" : "queries",
+            "technology" : "gRPC",
+            "linkedRelationshipId" : "15"
+          }, {
+            "id" : "28",
+            "sourceId" : "26",
+            "destinationId" : "23",
+            "description" : "exports telemetry",
+            "technology" : "gRPC | OTEL",
+            "linkedRelationshipId" : "18"
+          }, {
+            "id" : "31",
+            "sourceId" : "26",
+            "destinationId" : "29",
+            "description" : "fetches from",
+            "technology" : "{ DataId }",
+            "linkedRelationshipId" : "16"
+          } ],
+          "environment" : "local",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "14"
+        } ]
+      } ],
+      "softwareSystemInstances" : [ {
+        "id" : "29",
+        "tags" : "Software System Instance,#external",
+        "properties" : {
+          "structurizr.dsl.identifier" : "local_.110ce14c-a037-4667-aa53-af003767b082.shm_"
+        },
+        "environment" : "local",
+        "deploymentGroups" : [ "Default" ],
+        "instanceId" : 1,
+        "softwareSystemId" : "1"
+      } ]
+    }, {
+      "id" : "32",
+      "tags" : "Element,Deployment Node,#windows",
+      "properties" : {
+        "structurizr.dsl.identifier" : "compose_.2795adfb-5823-488e-aaa9-8d98bca92452"
+      },
+      "name" : "Laptop",
+      "environment" : "compose",
+      "technology" : "Windows11",
+      "instances" : "1",
+      "children" : [ {
+        "id" : "33",
+        "tags" : "Element,Deployment Node,#docker",
+        "properties" : {
+          "structurizr.dsl.identifier" : "compose_.2795adfb-5823-488e-aaa9-8d98bca92452.e79ab773-54f2-488d-b865-d85bc1c689bc"
+        },
+        "name" : "Orchestration",
+        "environment" : "compose",
+        "technology" : "Docker Compose",
+        "instances" : "1",
+        "children" : [ {
+          "id" : "36",
+          "tags" : "Element,Deployment Node,#docker",
+          "properties" : {
+            "structurizr.dsl.identifier" : "compose_.2795adfb-5823-488e-aaa9-8d98bca92452.e79ab773-54f2-488d-b865-d85bc1c689bc.cdffd3dc-a72e-4c5c-8062-24f8d8f6ed82"
+          },
+          "name" : "dotnet/runtime:8.0",
+          "environment" : "compose",
+          "technology" : "Docker",
+          "instances" : "1",
+          "containerInstances" : [ {
+            "id" : "37",
+            "tags" : "Container Instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "compose_.2795adfb-5823-488e-aaa9-8d98bca92452.e79ab773-54f2-488d-b865-d85bc1c689bc.cdffd3dc-a72e-4c5c-8062-24f8d8f6ed82.consumer_"
+            },
+            "relationships" : [ {
+              "id" : "44",
+              "sourceId" : "37",
+              "destinationId" : "43",
+              "description" : "fetches from",
+              "technology" : "{ DataId }",
+              "linkedRelationshipId" : "16"
+            }, {
+              "id" : "41",
+              "sourceId" : "37",
+              "destinationId" : "40",
+              "description" : "exports telemetry",
+              "technology" : "gRPC | OTEL",
+              "linkedRelationshipId" : "18"
+            }, {
+              "id" : "38",
+              "sourceId" : "37",
+              "destinationId" : "35",
+              "description" : "queries",
+              "technology" : "gRPC",
+              "linkedRelationshipId" : "15"
+            } ],
+            "environment" : "compose",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "14"
+          } ]
+        }, {
+          "id" : "34",
+          "tags" : "Element,Deployment Node,#docker",
+          "properties" : {
+            "structurizr.dsl.identifier" : "compose_.2795adfb-5823-488e-aaa9-8d98bca92452.e79ab773-54f2-488d-b865-d85bc1c689bc.5e91d041-40f9-45c8-b35f-30a99165fcd4"
+          },
+          "name" : "dotnet/aspnet:8.0",
+          "environment" : "compose",
+          "technology" : "Docker",
+          "instances" : "1",
+          "containerInstances" : [ {
+            "id" : "35",
+            "tags" : "Container Instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "compose_.2795adfb-5823-488e-aaa9-8d98bca92452.e79ab773-54f2-488d-b865-d85bc1c689bc.5e91d041-40f9-45c8-b35f-30a99165fcd4.producer_"
+            },
+            "relationships" : [ {
+              "id" : "45",
+              "sourceId" : "35",
+              "destinationId" : "43",
+              "description" : "stores into",
+              "technology" : "{ Data }",
+              "linkedRelationshipId" : "11"
+            }, {
+              "id" : "42",
+              "sourceId" : "35",
+              "destinationId" : "40",
+              "description" : "exports telemetry",
+              "technology" : "gRPC | OTEL",
+              "linkedRelationshipId" : "13"
+            } ],
+            "environment" : "compose",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "5"
+          } ]
+        }, {
+          "id" : "39",
+          "tags" : "Element,Deployment Node,#docker",
+          "properties" : {
+            "structurizr.dsl.identifier" : "compose_.2795adfb-5823-488e-aaa9-8d98bca92452.e79ab773-54f2-488d-b865-d85bc1c689bc.36464e82-ceb0-44e2-8bc2-3db4aabfcdde"
+          },
+          "name" : "aspire",
+          "environment" : "compose",
+          "technology" : "Docker",
+          "instances" : "1",
+          "containerInstances" : [ {
+            "id" : "40",
+            "tags" : "Container Instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "compose_.2795adfb-5823-488e-aaa9-8d98bca92452.e79ab773-54f2-488d-b865-d85bc1c689bc.36464e82-ceb0-44e2-8bc2-3db4aabfcdde.dashboard_"
+            },
+            "environment" : "compose",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "3"
+          } ]
+        } ],
+        "softwareSystemInstances" : [ {
+          "id" : "43",
+          "tags" : "Software System Instance,#external",
+          "properties" : {
+            "structurizr.dsl.identifier" : "compose_.2795adfb-5823-488e-aaa9-8d98bca92452.e79ab773-54f2-488d-b865-d85bc1c689bc.shm_"
+          },
+          "environment" : "compose",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "softwareSystemId" : "1"
+        } ]
+      } ]
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "key" : "C4_L",
+      "order" : 1,
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "4",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "20"
+      }, {
+        "id" : "19"
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "key" : "C4_1",
+      "order" : 2,
+      "softwareSystemId" : "4",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "4",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "20"
+      }, {
+        "id" : "19"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "C4_2",
+      "order" : 3,
+      "softwareSystemId" : "4",
+      "dimensions" : {
+        "width" : 2205,
+        "height" : 1740
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 652,
+        "y" : 1239
+      }, {
+        "id" : "2",
+        "x" : 877,
+        "y" : 199
+      }, {
+        "id" : "14",
+        "x" : 1535,
+        "y" : 719
+      }, {
+        "id" : "5",
+        "x" : 220,
+        "y" : 719
+      } ],
+      "relationships" : [ {
+        "id" : "17"
+      }, {
+        "id" : "16"
+      }, {
+        "id" : "15"
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "11"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "C4_4_producer",
+      "order" : 4,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2480,
+        "height" : 1748
+      },
+      "containerId" : "5",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "6",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "7",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "8"
+      }, {
+        "id" : "9",
+        "vertices" : [ {
+          "x" : 225,
+          "y" : 300
+        } ]
+      }, {
+        "id" : "10",
+        "vertices" : [ {
+          "x" : 225,
+          "y" : 0
+        } ]
+      } ]
+    } ],
+    "dynamicViews" : [ {
+      "key" : "C4_W_producer",
+      "order" : 8,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2480,
+        "height" : 1748
+      },
+      "elementId" : "5",
+      "externalBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "9",
+        "order" : "1",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 225,
+          "y" : 300
+        } ]
+      }, {
+        "id" : "8",
+        "order" : "2",
+        "response" : false
+      }, {
+        "id" : "10",
+        "order" : "3",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 225,
+          "y" : 0
+        } ]
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "6",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "7",
+        "x" : 0,
+        "y" : 0
+      } ]
+    }, {
+      "key" : "C4_W_greeter",
+      "order" : 7,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2480,
+        "height" : 1748
+      },
+      "elementId" : "4",
+      "externalBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "15",
+        "order" : "1",
+        "response" : false
+      }, {
+        "id" : "11",
+        "order" : "2",
+        "response" : false
+      }, {
+        "id" : "16",
+        "order" : "3",
+        "response" : false
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "14",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "5",
+        "x" : 0,
+        "y" : 0
+      } ]
+    } ],
+    "deploymentViews" : [ {
+      "key" : "C4_D_compose",
+      "order" : 6,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2480,
+        "height" : 1748
+      },
+      "environment" : "compose",
+      "elements" : [ {
+        "id" : "33",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "34",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "35",
+        "x" : 1590,
+        "y" : 460
+      }, {
+        "id" : "36",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "37",
+        "x" : 330,
+        "y" : 475
+      }, {
+        "id" : "39",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "40",
+        "x" : 990,
+        "y" : 15
+      }, {
+        "id" : "43",
+        "x" : 1120,
+        "y" : 1275
+      }, {
+        "id" : "32",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "41"
+      }, {
+        "id" : "42"
+      }, {
+        "id" : "44"
+      }, {
+        "id" : "45"
+      }, {
+        "id" : "38"
+      } ]
+    }, {
+      "key" : "C4_D_local",
+      "order" : 5,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2480,
+        "height" : 1748
+      },
+      "environment" : "local",
+      "elements" : [ {
+        "id" : "22",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "23",
+        "x" : 1105,
+        "y" : 120
+      }, {
+        "id" : "24",
+        "x" : 635,
+        "y" : 430
+      }, {
+        "id" : "26",
+        "x" : 1760,
+        "y" : 475
+      }, {
+        "id" : "29",
+        "x" : 1080,
+        "y" : 1095
+      }, {
+        "id" : "21",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "28"
+      }, {
+        "id" : "27"
+      }, {
+        "id" : "25"
+      }, {
+        "id" : "31"
+      }, {
+        "id" : "30"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "#bus",
+          "width" : 900
+        }, {
+          "tag" : "#shm",
+          "stroke" : "#ff006e"
+        } ],
+        "relationships" : [ {
+          "tag" : "#otel",
+          "color" : "#f5a800",
+          "style" : "Dotted"
+        } ]
+      },
+      "themes" : [ "https://raw.githubusercontent.com/RVR06/cornifer-contrib/main/themes/topology/theme.json", "https://raw.githubusercontent.com/RVR06/cornifer-contrib/main/themes/heraldry2/theme.json" ],
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "C4_2",
+      "properties" : {
+        "structurizr.sort" : "created"
+      }
+    }
+  }
+}
