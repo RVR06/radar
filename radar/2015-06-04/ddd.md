@@ -2,6 +2,7 @@
 title: Domain Driven Design
 ring: adopt
 quadrant: staples
+tags: [EXPERT]
 ---
 
 [![](https://img.shields.io/badge/DDD-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://www.geeksforgeeks.org/system-design/domain-driven-design-ddd/)

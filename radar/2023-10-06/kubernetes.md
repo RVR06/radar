@@ -2,6 +2,7 @@
 title: Kubernetes
 ring: adopt
 quadrant: platforms-and-operations
+tags: [PRACTITIONER]
 ---
 
 [![](https://img.shields.io/badge/kubernetes-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://kubernetes.io/fr/)

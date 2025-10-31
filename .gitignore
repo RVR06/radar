@@ -10,3 +10,5 @@ build
 techradar
 # bin
 src/rd.json
+
+**/.structurizr

@@ -2,6 +2,7 @@
 title: Rust
 ring: assess
 quadrant: tools
+tags: [NOVICE]
 ---
 
 [![](https://img.shields.io/badge/rust-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://rust-lang.org/)

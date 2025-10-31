@@ -1,0 +1,183 @@
+{
+  "id" : 1,
+  "name" : "OTEL Collector",
+  "description" : "description",
+  "lastModifiedDate" : "2025-10-06T13:15:01Z",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJPVEVMIENvbGxlY3RvciIgImRlc2NyaXB0aW9uIiB7CgkhaWRlbnRpZmllcnMgaGllcmFyY2hpY2FsCgkhaW1wbGllZFJlbGF0aW9uc2hpcHMgZmFsc2UKCQoJbW9kZWwgewoJCW8xMXkgPSBzb2Z0d2FyZVN5c3RlbSAiT2JzZXJ2YWJpbGl0eSIgIlN0b3JhZ2UgYW5kIGRhc2hib2FyZCwgZS5nLiwgR3JhZmFuYSwgRGF0YWRvZy4iICIjb3RlbCIgewoJCQlsb2tpID0gY29udGFpbmVyICJMb2tpIiAiSG9yaXpvbnRhbGx5LXNjYWxhYmxlLCBoaWdobHkgYXZhaWxhYmxlLCBtdWx0aS10ZW5hbnQgbG9nIGFnZ3JlZ2F0aW9uIHN5c3RlbS4iICIiICIjbG9raSIKCQkJcHJvbWV0aGV1cyA9IGNvbnRhaW5lciAiUHJvbWV0aGV1cyIgIkZyb20gbWV0cmljcyB0byBpbnNpZ2h0LiBQb3dlciB5b3VyIG1ldHJpY3MgYW5kIGFsZXJ0aW5nIHdpdGggYSBsZWFkaW5nIG9wZW4tc291cmNlICBzb2x1dGlvbi4iICIiICIjcHJvbWV0aGV1cyIKCQkJdGVtcG8gPSBjb250YWluZXIgIlRlbXBvIiAiT3Blbi1zb3VyY2UsIGVhc3ktdG8tdXNlLCBhbmQgaGlnaC1zY2FsZSBkaXN0cmlidXRlZCB0cmFjaW5nIGJhY2tlbmQuIiAiIiAiI3RlbXBvIgoJCQkKCQkJb3RlbCA9IGNvbnRhaW5lciAiT3BlblRlbGVtZXRyeSBDb2xsZWN0b3IiICJWZW5kb3ItYWdub3N0aWMgaW1wbGVtZW50YXRpb24gb24gaG93IHRvIHJlY2VpdmUsIHByb2Nlc3MgYW5kIGV4cG9ydCB0ZWxlbWV0cnkgZGF0YSIgIiIgIiNvdGVsIiB7CgkJCQktPiBsb2tpICJleHBvcnRzIGxvZ3MgdG8iICIiICIiCgkJCQktPiB0ZW1wbyAiZXhwb3J0cyB0cmFjZXMgdG8iICIiICIiCgkJCQktPiBwcm9tZXRoZXVzICJleHBvcnRzIG1ldHJpY3MgdG8iICIiICIiCgkJCX0KCQkJCgkJCWdyYWZhbmEgPSBjb250YWluZXIgIkdyYWZhbmEiICJPcGVyYXRpb25hbCBkYXNoYm9hcmRzIGZvciB5b3VyIGRhdGEgaGVyZSwgdGhlcmUsIG9yIGFueXdoZXJlLiIgIiIgIiN3ZWIsICNncmFmYW5hIiB7CgkJCQl1cmwgaHR0cHM6Ly9ncmFmYW5hLmNvbQoJCQkJCgkJCQktPiBsb2tpICJpbmdlc3RzIGxvZ3MgZnJvbSIgIiIgIiIKCQkJCS0+IHByb21ldGhldXMgImluZ2VzdHMgbWV0cmljcyBmcm9tIiAiIiAiIgoJCQkJLT4gdGVtcG8gImluZ2VzdHMgdHJhY2VzIGZyb20iICIiICIiCgkJCX0KCQl9Cgl9CgkKCXZpZXdzIHsKCQl0aGVtZSBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vcnZyMDYvY29ybmlmZXItY29udHJpYi9tYWluL3RoZW1lcy90b3BvbG9neS90aGVtZS5qc29uCgkJdGhlbWUgaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3J2cjA2L2Nvcm5pZmVyLWNvbnRyaWIvbWFpbi90aGVtZXMvaGVyYWxkcnkyL3RoZW1lLmpzb24KCQkKCQkjIHN0eWxlcyB7CgkJCSMgCWVsZW1lbnQgIiN0ZW1wbyIgewoJCQkJIyAJCXN0cm9rZSAjRjQ2ODAwCgkJCQkjIAkJaWNvbiB0ZW1wby5wbmcKCQkJIyAJfQoJCQkjIAllbGVtZW50ICIjbG9raSIgewoJCQkJIyAJCXN0cm9rZSAjRjQ2ODAwCgkJCQkjIAkJaWNvbiBsb2tpLnBuZwoJCQkjIAl9CgkJIyB9CgkJCgkJcHJvcGVydGllcyB7CgkJCSJzdHJ1Y3R1cml6ci5zb3J0IiAiY3JlYXRlZCIKCQl9CgkJCgkJY29udGFpbmVyIG8xMXkgIkM0XzIiICIiIHsKCQkJaW5jbHVkZSAqCgkJfQoJfQp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "softwareSystems" : [ {
+      "id" : "1",
+      "tags" : "Element,Software System,#otel",
+      "properties" : {
+        "structurizr.dsl.identifier" : "o11y"
+      },
+      "name" : "Observability",
+      "description" : "Storage and dashboard, e.g., Grafana, Datadog.",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "3",
+        "tags" : "Element,Container,#prometheus",
+        "properties" : {
+          "structurizr.dsl.identifier" : "o11y.prometheus"
+        },
+        "name" : "Prometheus",
+        "description" : "From metrics to insight. Power your metrics and alerting with a leading open-source  solution.",
+        "documentation" : { }
+      }, {
+        "id" : "5",
+        "tags" : "Element,Container,#otel",
+        "properties" : {
+          "structurizr.dsl.identifier" : "o11y.otel"
+        },
+        "name" : "OpenTelemetry Collector",
+        "description" : "Vendor-agnostic implementation on how to receive, process and export telemetry data",
+        "relationships" : [ {
+          "id" : "6",
+          "tags" : "Relationship,",
+          "properties" : {
+            "structurizr.dsl.identifier" : "21d68e97-2b62-413f-a952-b43ad5d728ed"
+          },
+          "sourceId" : "5",
+          "destinationId" : "2",
+          "description" : "exports logs to"
+        }, {
+          "id" : "7",
+          "tags" : "Relationship,",
+          "properties" : {
+            "structurizr.dsl.identifier" : "940b3950-2c20-4479-9605-33aee3ea80de"
+          },
+          "sourceId" : "5",
+          "destinationId" : "4",
+          "description" : "exports traces to"
+        }, {
+          "id" : "8",
+          "tags" : "Relationship,",
+          "properties" : {
+            "structurizr.dsl.identifier" : "99a02122-aa4d-44bf-8b91-1e2b8019b16a"
+          },
+          "sourceId" : "5",
+          "destinationId" : "3",
+          "description" : "exports metrics to"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "2",
+        "tags" : "Element,Container,#loki",
+        "properties" : {
+          "structurizr.dsl.identifier" : "o11y.loki"
+        },
+        "name" : "Loki",
+        "description" : "Horizontally-scalable, highly available, multi-tenant log aggregation system.",
+        "documentation" : { }
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container,#web,#grafana",
+        "url" : "https://grafana.com",
+        "properties" : {
+          "structurizr.dsl.identifier" : "o11y.grafana"
+        },
+        "name" : "Grafana",
+        "description" : "Operational dashboards for your data here, there, or anywhere.",
+        "relationships" : [ {
+          "id" : "10",
+          "tags" : "Relationship,",
+          "properties" : {
+            "structurizr.dsl.identifier" : "5d3eb69d-317a-424f-8d07-4aaf5def0319"
+          },
+          "sourceId" : "9",
+          "destinationId" : "2",
+          "description" : "ingests logs from"
+        }, {
+          "id" : "11",
+          "tags" : "Relationship,",
+          "properties" : {
+            "structurizr.dsl.identifier" : "d6cb6242-8e6f-4263-9694-09995ed49397"
+          },
+          "sourceId" : "9",
+          "destinationId" : "3",
+          "description" : "ingests metrics from"
+        }, {
+          "id" : "12",
+          "tags" : "Relationship,",
+          "properties" : {
+            "structurizr.dsl.identifier" : "d09d75ef-86fa-4999-a212-9c03d7e274e3"
+          },
+          "sourceId" : "9",
+          "destinationId" : "4",
+          "description" : "ingests traces from"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container,#tempo",
+        "properties" : {
+          "structurizr.dsl.identifier" : "o11y.tempo"
+        },
+        "name" : "Tempo",
+        "description" : "Open-source, easy-to-use, and high-scale distributed tracing backend.",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "containerViews" : [ {
+      "key" : "C4_2",
+      "order" : 1,
+      "softwareSystemId" : "1",
+      "dimensions" : {
+        "width" : 3035,
+        "height" : 1626
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "2",
+        "x" : 1305,
+        "y" : 165
+      }, {
+        "id" : "3",
+        "x" : 1305,
+        "y" : 600
+      }, {
+        "id" : "4",
+        "x" : 1305,
+        "y" : 1035
+      }, {
+        "id" : "5",
+        "x" : 246,
+        "y" : 600
+      }, {
+        "id" : "9",
+        "x" : 2365,
+        "y" : 600
+      } ],
+      "relationships" : [ {
+        "id" : "6"
+      }, {
+        "id" : "11"
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "7"
+      }, {
+        "id" : "8"
+      }, {
+        "id" : "10"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : { },
+      "themes" : [ "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/themes/topology/theme.json", "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/themes/heraldry2/theme.json" ],
+      "terminology" : { },
+      "lastSavedView" : "C4_2",
+      "properties" : {
+        "structurizr.sort" : "created"
+      }
+    }
+  }
+}

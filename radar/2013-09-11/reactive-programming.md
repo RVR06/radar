@@ -2,6 +2,7 @@
 title: Reactive Programming
 ring: adopt
 quadrant: staples
+tags: [PRACTITIONER]
 ---
 
 [![](https://img.shields.io/badge/reactiveui-ef8d22?logo=hackthebox&logoColor=000&style=flat)](https://www.reactiveui.net/)
