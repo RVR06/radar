@@ -1,0 +1,197 @@
+{
+  "configuration" : { },
+  "description" : "Kubernetes Continuous Delivery powered by Kargo and ArgoCD",
+  "documentation" : { },
+  "id" : 1,
+  "lastModifiedDate" : "2026-04-29T16:28:09Z",
+  "model" : {
+    "softwareSystems" : [ {
+      "documentation" : { },
+      "id" : "1",
+      "name" : "Image registry",
+      "properties" : {
+        "structurizr.dsl.identifier" : "image_registry"
+      },
+      "tags" : "Element,Software System,#docker,#db"
+    }, {
+      "documentation" : { },
+      "id" : "2",
+      "name" : "Chart registry",
+      "properties" : {
+        "structurizr.dsl.identifier" : "chart_registry"
+      },
+      "tags" : "Element,Software System,#helm,#db"
+    }, {
+      "documentation" : { },
+      "id" : "3",
+      "name" : "IaC repository",
+      "properties" : {
+        "structurizr.dsl.identifier" : "iac_repository"
+      },
+      "tags" : "Element,Software System,#github,#db"
+    }, {
+      "documentation" : { },
+      "id" : "4",
+      "name" : "Kubernetes",
+      "properties" : {
+        "structurizr.dsl.identifier" : "k8s"
+      },
+      "tags" : "Element,Software System,#k8s"
+    }, {
+      "description" : "Seamlessly orchestrate stage-to-stage deployments, without custom scripts or CI pipelines.",
+      "documentation" : { },
+      "id" : "5",
+      "name" : "Kargo",
+      "properties" : {
+        "structurizr.dsl.identifier" : "kargo"
+      },
+      "relationships" : [ {
+        "description" : "monitors",
+        "destinationId" : "1",
+        "id" : "6",
+        "sourceId" : "5",
+        "tags" : "Relationship"
+      }, {
+        "description" : "monitors",
+        "destinationId" : "2",
+        "id" : "7",
+        "sourceId" : "5",
+        "tags" : "Relationship"
+      }, {
+        "description" : "monitors",
+        "destinationId" : "3",
+        "id" : "8",
+        "sourceId" : "5",
+        "tags" : "Relationship"
+      }, {
+        "description" : "updates",
+        "destinationId" : "3",
+        "id" : "9",
+        "sourceId" : "5",
+        "tags" : "Relationship"
+      } ],
+      "tags" : "Element,Software System,#web,#kargo",
+      "url" : "https://kargo.io"
+    }, {
+      "description" : "Declarative continuous delivery with a fully-loaded UI.",
+      "documentation" : { },
+      "id" : "10",
+      "name" : "ArgoCD",
+      "properties" : {
+        "structurizr.dsl.identifier" : "argocd"
+      },
+      "relationships" : [ {
+        "description" : "monitors",
+        "destinationId" : "3",
+        "id" : "11",
+        "sourceId" : "10",
+        "tags" : "Relationship"
+      }, {
+        "description" : "fetches images from",
+        "destinationId" : "1",
+        "id" : "12",
+        "sourceId" : "10",
+        "tags" : "Relationship"
+      }, {
+        "description" : "fetches charts from",
+        "destinationId" : "2",
+        "id" : "13",
+        "sourceId" : "10",
+        "tags" : "Relationship"
+      }, {
+        "description" : "reconciles",
+        "destinationId" : "4",
+        "id" : "14",
+        "sourceId" : "10",
+        "tags" : "Relationship"
+      } ],
+      "tags" : "Element,Software System,#web,#argocd",
+      "url" : "https://argoproj.github.io/cd/"
+    } ]
+  },
+  "name" : "CD",
+  "properties" : {
+    "structurizr.inspection.error" : "13",
+    "structurizr.dsl" : "d29ya3NwYWNlICJDRCIgIkt1YmVybmV0ZXMgQ29udGludW91cyBEZWxpdmVyeSBwb3dlcmVkIGJ5IEthcmdvIGFuZCBBcmdvQ0QiIHsKCSFpZGVudGlmaWVycyBoaWVyYXJjaGljYWwKCSFpbXBsaWVkUmVsYXRpb25zaGlwcyBmYWxzZQoJCgltb2RlbCB7CgkJaW1hZ2VfcmVnaXN0cnkgPSBzb2Z0d2FyZVN5c3RlbSAiSW1hZ2UgcmVnaXN0cnkiICIiICIjZG9ja2VyLCAjZGIiCgkJY2hhcnRfcmVnaXN0cnkgPSBzb2Z0d2FyZVN5c3RlbSAiQ2hhcnQgcmVnaXN0cnkiICIiICIjaGVsbSwgI2RiIgoJCWlhY19yZXBvc2l0b3J5ID0gc29mdHdhcmVTeXN0ZW0gIklhQyByZXBvc2l0b3J5IiAiIiAiI2dpdGh1YiwgI2RiIgoJCWs4cyA9IHNvZnR3YXJlU3lzdGVtICJLdWJlcm5ldGVzIiAiIiAiI2s4cyIKCQkKCQlrYXJnbyA9IHNvZnR3YXJlU3lzdGVtICJLYXJnbyIgIlNlYW1sZXNzbHkgb3JjaGVzdHJhdGUgc3RhZ2UtdG8tc3RhZ2UgZGVwbG95bWVudHMsIHdpdGhvdXQgY3VzdG9tIHNjcmlwdHMgb3IgQ0kgcGlwZWxpbmVzLiIgIiN3ZWIsICNrYXJnbyIgewoJCQl1cmwgaHR0cHM6Ly9rYXJnby5pbwoJCQkKCQkJLT4gaW1hZ2VfcmVnaXN0cnkgIm1vbml0b3JzIgoJCQktPiBjaGFydF9yZWdpc3RyeSAibW9uaXRvcnMiCgkJCS0+IGlhY19yZXBvc2l0b3J5ICJtb25pdG9ycyIKCQkJLT4gaWFjX3JlcG9zaXRvcnkgInVwZGF0ZXMiCgkJfQoJCQoJCWFyZ29jZCA9IHNvZnR3YXJlU3lzdGVtICJBcmdvQ0QiICJEZWNsYXJhdGl2ZSBjb250aW51b3VzIGRlbGl2ZXJ5IHdpdGggYSBmdWxseS1sb2FkZWQgVUkuIiAiI3dlYiwgI2FyZ29jZCIgewoJCQl1cmwgaHR0cHM6Ly9hcmdvcHJvai5naXRodWIuaW8vY2QvCgkJCQoJCQktPiBpYWNfcmVwb3NpdG9yeSAibW9uaXRvcnMiCgkJCS0+IGltYWdlX3JlZ2lzdHJ5ICJmZXRjaGVzIGltYWdlcyBmcm9tIgoJCQktPiBjaGFydF9yZWdpc3RyeSAiZmV0Y2hlcyBjaGFydHMgZnJvbSIKCQkJLT4gazhzICJyZWNvbmNpbGVzIgoJCX0KCX0KCXZpZXdzIHsKCQl0aGVtZSBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vcnZyMDYvY29ybmlmZXItY29udHJpYi9tYWluL3RoZW1lcy90b3BvbG9neS90aGVtZS5qc29uCgkJdGhlbWUgaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3J2cjA2L2Nvcm5pZmVyLWNvbnRyaWIvbWFpbi90aGVtZXMvaGVyYWxkcnkyL3RoZW1lLmpzb24KCQkKCQlzdHlsZXMgewoJCQllbGVtZW50ICJTb2Z0d2FyZSBTeXN0ZW0gSW5zdGFuY2UiIHsKCQkJCWRlc2NyaXB0aW9uIHRydWUKCQkJCWhlaWdodCAzNTAKCQkJfQoJCQkKCQkJZWxlbWVudCAiI2thcmdvIiB7CgkJCQlzdHJva2UgI0U1OTY1NQoJCQkJIyBpY29uIC4va2FyZ28uc3ZnCgkJCX0KCQl9CgkJCgkJcHJvcGVydGllcyB7CgkJCSJzdHJ1Y3R1cml6ci5zb3J0IiAiY3JlYXRlZCIKCQl9CgkJCgkJc3lzdGVtTGFuZHNjYXBlICJDNF9sIiB7CgkJCWluY2x1ZGUgKgoJCX0KCX0KfQ==",
+    "structurizr.inspection.info" : "0",
+    "structurizr.inspection.ignore" : "0",
+    "structurizr.inspection.warning" : "0"
+  },
+  "views" : {
+    "configuration" : {
+      "branding" : { },
+      "lastSavedView" : "C4_l",
+      "properties" : {
+        "structurizr.sort" : "created"
+      },
+      "styles" : {
+        "elements" : [ {
+          "stroke" : "#e59655",
+          "tag" : "#kargo"
+        }, {
+          "description" : true,
+          "height" : 350,
+          "tag" : "Software System Instance"
+        } ]
+      },
+      "terminology" : { },
+      "themes" : [ "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/themes/topology/theme.json", "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/themes/heraldry2/theme.json" ]
+    },
+    "systemLandscapeViews" : [ {
+      "dimensions" : {
+        "height" : 1893,
+        "width" : 2236
+      },
+      "elements" : [ {
+        "id" : "1",
+        "x" : 199,
+        "y" : 704
+      }, {
+        "id" : "2",
+        "x" : 802,
+        "y" : 689
+      }, {
+        "id" : "3",
+        "x" : 1405,
+        "y" : 704
+      }, {
+        "id" : "4",
+        "x" : 1585,
+        "y" : 1344
+      }, {
+        "id" : "5",
+        "x" : 802,
+        "y" : 159
+      }, {
+        "id" : "10",
+        "x" : 802,
+        "y" : 1344
+      } ],
+      "enterpriseBoundaryVisible" : true,
+      "key" : "C4_l",
+      "name" : "System Landscape View",
+      "order" : 1,
+      "relationships" : [ {
+        "id" : "11"
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "13"
+      }, {
+        "id" : "14"
+      }, {
+        "id" : "6"
+      }, {
+        "id" : "7"
+      }, {
+        "id" : "8"
+      }, {
+        "id" : "9",
+        "vertices" : [ {
+          "x" : 1625,
+          "y" : 315
+        } ]
+      } ]
+    } ]
+  }
+}
