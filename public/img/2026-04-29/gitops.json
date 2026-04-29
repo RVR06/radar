@@ -1,0 +1,167 @@
+{
+  "configuration" : { },
+  "description" : "Kubernetes Continuous Delivery powered by GitOps Promoter and ArgoCD",
+  "documentation" : { },
+  "id" : 1,
+  "lastModifiedAgent" : "structurizr-ui",
+  "lastModifiedDate" : "2026-04-29T16:35:01Z",
+  "model" : {
+    "softwareSystems" : [ {
+      "documentation" : { },
+      "id" : "1",
+      "name" : "Image registry",
+      "properties" : {
+        "structurizr.dsl.identifier" : "image_registry"
+      },
+      "tags" : "Element,Software System,#docker,#db"
+    }, {
+      "documentation" : { },
+      "id" : "2",
+      "name" : "Chart registry",
+      "properties" : {
+        "structurizr.dsl.identifier" : "chart_registry"
+      },
+      "tags" : "Element,Software System,#helm,#db"
+    }, {
+      "documentation" : { },
+      "id" : "3",
+      "name" : "IaC repository",
+      "properties" : {
+        "structurizr.dsl.identifier" : "iac_repository"
+      },
+      "tags" : "Element,Software System,#github,#db"
+    }, {
+      "documentation" : { },
+      "id" : "4",
+      "name" : "Kubernetes",
+      "properties" : {
+        "structurizr.dsl.identifier" : "k8s"
+      },
+      "tags" : "Element,Software System,#k8s"
+    }, {
+      "description" : "orchestrates stage-to-stage deployments",
+      "documentation" : { },
+      "id" : "5",
+      "name" : "GitOps Promoter",
+      "properties" : {
+        "structurizr.dsl.identifier" : "promoter"
+      },
+      "relationships" : [ {
+        "description" : "oversees",
+        "destinationId" : "3",
+        "id" : "6",
+        "sourceId" : "5",
+        "tags" : "Relationship"
+      } ],
+      "tags" : "Element,Software System,#web,#gitops-promoter",
+      "url" : "https://gitops-promoter.readthedocs.io/en/latest/"
+    }, {
+      "description" : "Reconciles repository and cluster",
+      "documentation" : { },
+      "id" : "7",
+      "name" : "ArgoCD",
+      "properties" : {
+        "structurizr.dsl.identifier" : "argocd"
+      },
+      "relationships" : [ {
+        "description" : "monitors",
+        "destinationId" : "3",
+        "id" : "8",
+        "sourceId" : "7",
+        "tags" : "Relationship"
+      }, {
+        "description" : "fetches images from",
+        "destinationId" : "1",
+        "id" : "9",
+        "sourceId" : "7",
+        "tags" : "Relationship"
+      }, {
+        "description" : "fetches charts from",
+        "destinationId" : "2",
+        "id" : "10",
+        "sourceId" : "7",
+        "tags" : "Relationship"
+      }, {
+        "description" : "reconciles",
+        "destinationId" : "4",
+        "id" : "11",
+        "sourceId" : "7",
+        "tags" : "Relationship"
+      } ],
+      "tags" : "Element,Software System,#web,#argocd",
+      "url" : "https://argoproj.github.io/cd/"
+    } ]
+  },
+  "name" : "GitOps",
+  "properties" : {
+    "structurizr.inspection.info" : "0",
+    "structurizr.inspection.ignore" : "0",
+    "structurizr.inspection.error" : "10",
+    "structurizr.inspection.warning" : "0"
+  },
+  "views" : {
+    "configuration" : {
+      "branding" : { },
+      "lastSavedView" : "C4_l",
+      "metadataSymbols" : "SquareBrackets",
+      "properties" : {
+        "structurizr.sort" : "created"
+      },
+      "styles" : {
+        "elements" : [ {
+          "icon" : "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NTcgNTU2LjkzIj4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiAjZmY3ZTU2OwogICAgICB9CgogICAgICAuY2xzLTIgewogICAgICAgIGZpbGw6ICMwMDI1NGE7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgPC9kZWZzPgogIDxnIGlkPSJHcmFwaGljcyI+CiAgICA8Zz4KICAgICAgPGVsbGlwc2UgY2xhc3M9ImNscy0xIiBjeD0iMTMxLjY2IiBjeT0iNDI1LjI3IiByeD0iMzEuNzkiIHJ5PSI5Ny41IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjYyLjE1IDIxNy42Nikgcm90YXRlKC00NSkiLz4KICAgICAgPGVsbGlwc2UgY2xhc3M9ImNscy0xIiBjeD0iNzguMyIgY3k9IjQ3OC42OSIgcng9IjIzLjM2IiByeT0iNzEuNjUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMTUuNTUgMTk1LjU4KSByb3RhdGUoLTQ1KSIvPgogICAgICA8ZWxsaXBzZSBjbGFzcz0iY2xzLTEiIGN4PSIzNS40NyIgY3k9IjUyMS40NiIgcng9IjE1LjU1IiByeT0iNDcuNjgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNTguMzMgMTc3LjgxKSByb3RhdGUoLTQ1KSIvPgogICAgICA8ZWxsaXBzZSBjbGFzcz0iY2xzLTEiIGN4PSI0MTAuNDEiIGN5PSIxNDYuNTkiIHJ4PSIyMy40IiByeT0iOTQuOTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE2LjU1IDMzMy4xNCkgcm90YXRlKC00NSkiLz4KICAgICAgPHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTQyLjk5LDQyNC41NGMtMi43MSwwLTUuNDMtMS4wNC03LjUtMy4xMS00LjE0LTQuMTQtNC4xMy0xMC44NS4wMS0xNC45OWwzNi4yMy0zNi4xN2M2LjQ5LDYuNDksMTEuMTgsMTEuMTgsMTQuOTksMTQuOTlsLTM2LjI0LDM2LjE4Yy0yLjA3LDIuMDctNC43OCwzLjEtNy40OSwzLjFaIi8+CiAgICAgIDxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTUyOC4yOSwyOC44aDBzLS4wMy0uMDMtLjA1LS4wNWMtLjAyLS4wMi0uMDMtLjAzLS4wNC0uMDVoMGMtNDguOTQtNDguNzgtMTcyLjMyLTQ1LjUxLTI5OC40Miw5MC4xNC01Ljg5LDYuMzQtMTEuOTEsOS41NS0xNy45Miw5LjU2LTQuNTEsMC04Ljg5LS4wNy0xMy4xNy0uMTQtMjcuOTYtLjQ3LTU0LjM2LS45LTg1LjY4LDIwLjYzLTE1LjMxLDEwLjUzLTI2Ljk3LDIxLjI2LTM2LjY5LDMzLjc1bC00NS4wMSw2OC4zOWMtLjc3LDEuNDgtMS4wMSwyLjk5LS45MSw0LjQ4bC4xLDEuMDhjMS40OSw4LjI2LDEzLjgzLDE1LjkxLDE5LDE2LjY3bDY1LjQsOC4zYzkuNDIsMS4zNiwxMS44MSwyLjI3LDE2LjYxLDkuMTQsMi40Myw4LjE5LDIuNzEsOS44NywyLjc2LDE4Ljc2LS43NiwxNi45NSwxNC40OCwzNi4zMywyNC4zNyw0Ny43M2wyMS41NSwyMS41NS04LjQ4LTguNDgsNy42OS03LjY5Yy4wNi0uMDYuMDktLjEzLjE1LS4xOWwxMDAuODQtMTAwLjczYzQuMTQtNC4xNCwxMC44NS00LjEzLDE0Ljk5LDAsNC4xNCw0LjE0LDQuMTMsMTAuODUsMCwxNC45OWwtODcsODYuOTEuMDIuMDItMjEuNjksMjEuNjksMTMuMDksMTMuMDljMTEuNCw5Ljg4LDMwLjc4LDI1LjEzLDQ3LjczLDI0LjM3LDguODkuMDUsMTAuNTcuMzMsMTguNzYsMi43Niw2Ljg3LDQuOCw3Ljc3LDcuMiw5LjE0LDE2LjYxbDguMyw2NS40MWMuNzYsNS4xNyw4LjQsMTcuNTEsMTYuNjcsMTksMCwuMDEsMS4wOC4xMSwxLjA4LjEsMS41LjA5LDMtLjE0LDQuNDgtLjkxbDY4LjM5LTQ1LjAxYzEyLjUtOS43MiwyMy4yMi0yMS4zOCwzMy43NS0zNi42OSwyMS41NC0zMS4zMiwyMS4xLTU3LjcyLDIwLjYzLTg1LjY4LS4wNy00LjI4LS4xNS04LjY2LS4xNC0xMy4xNywwLTYuMDEsMy4yMi0xMi4wNCw5LjU2LTE3LjkyLDEzNS42NS0xMjYuMSwxMzguOTEtMjQ5LjQ4LDkwLjEzLTI5OC40MlpNMzc5LjA1LDE3Ny45NWMtMzQuMTItMzQuNDQtNjIuMTUtNzcuNTktNjEuNjUtMTA3Ljg3QzM4Ni42LDE4Ljk0LDQ2OC42MywzLjc4LDUxMS4xOCw0My4zNGMuNDIuMzkuNzkuOCwxLjE5LDEuMmwuMDUuMDUuMDUuMDVjLjQuNC44MS43NywxLjIsMS4xOSwzOS41Niw0Mi41NiwyNC4zOSwxMjQuNTgtMjYuNzUsMTkzLjc5LTMwLjI4LjUtNzMuNDMtMjcuNTMtMTA3Ljg3LTYxLjY1WiIvPgogICAgICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0zODIuNTksNjkuNTVjLTMuOTYsMC03Ljc1LTIuMjMtOS41Ny02LjAzLTIuNTItNS4yOC0uMjgtMTEuNjEsNS0xNC4xMywzMC4zNC0xNC40OCw2My45NS0xOS41OSw5NC42Ni0xNC4zOCw1Ljc3Ljk4LDkuNjYsNi40NSw4LjY4LDEyLjIyLS45OCw1Ljc3LTYuNDUsOS42Ny0xMi4yMiw4LjY4LTI2LjQzLTQuNDgtNTUuNTUsMC04MS45OCwxMi42MS0xLjQ3LjctMy4wMywxLjA0LTQuNTYsMS4wNFoiLz4KICAgIDwvZz4KICA8L2c+Cjwvc3ZnPg==",
+          "stroke" : "#ef7b4d",
+          "tag" : "#gitops-promoter"
+        } ]
+      },
+      "terminology" : { },
+      "themes" : [ "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/themes/topology/theme.json", "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/themes/heraldry2/theme.json" ]
+    },
+    "systemLandscapeViews" : [ {
+      "dimensions" : {
+        "height" : 1791,
+        "width" : 2295
+      },
+      "elements" : [ {
+        "id" : "1",
+        "x" : 921,
+        "y" : 717
+      }, {
+        "id" : "2",
+        "x" : 1644,
+        "y" : 717
+      }, {
+        "id" : "3",
+        "x" : 199,
+        "y" : 717
+      }, {
+        "id" : "4",
+        "x" : 1644,
+        "y" : 1242
+      }, {
+        "id" : "5",
+        "x" : 199,
+        "y" : 159
+      }, {
+        "id" : "7",
+        "x" : 921,
+        "y" : 1242
+      } ],
+      "enterpriseBoundaryVisible" : true,
+      "key" : "C4_l",
+      "name" : "System Landscape View",
+      "order" : 1,
+      "relationships" : [ {
+        "id" : "10"
+      }, {
+        "id" : "11"
+      }, {
+        "id" : "6"
+      }, {
+        "id" : "8"
+      }, {
+        "id" : "9"
+      } ]
+    } ]
+  }
+}
