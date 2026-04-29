@@ -5,8 +5,8 @@ quadrant: patterns
 tags: [NOVICE]
 ---
 
-[![](https://img.shields.io/badge/manifesto-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://www.architectureandgovernance.com/uncategorized/the-ea-manifesto-the-human-side-of-enterprise-architecture/)
-[![](https://img.shields.io/badge/nadzeya%20stalbouskaya-834187?logo=ubuntu&logoColor=000&style=flat)](https://www.linkedin.com/in/nadzeya-stalbouskaya/)
+[![](https://img.shields.io/badge/manifesto-0c7cba?logo=gitbook&logoColor=fff&style=flat)](https://www.architectureandgovernance.com/uncategorized/the-ea-manifesto-the-human-side-of-enterprise-architecture/)
+[![](https://img.shields.io/badge/nadzeya%20stalbouskaya-834187?logo=ubuntu&logoColor=fff&style=flat)](https://www.linkedin.com/in/nadzeya-stalbouskaya/)
 
 1️. 𝗧𝗿𝘂𝘀𝘁 𝗼𝘃𝗲𝗿 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 — Transparency isn’t a soft value. It’s the foundation of every architectural decision that earns respect.
 

@@ -5,7 +5,7 @@ quadrant: platforms-and-operations
 tags: [NOVICE]
 ---
 
-[![](https://img.shields.io/badge/Kargo-0c7cba?logo=kargo&logoColor=000&style=flat)](https://www.gitops.tech/)
+[![](https://img.shields.io/badge/Kargo-0c7cba?logo=gitbook&logoColor=fff&style=flat)](https://docs.kargo.io/)
 
 Kargo is a continuous promotion orchestration layer, that complements Argo CD for Kubernetes.
 

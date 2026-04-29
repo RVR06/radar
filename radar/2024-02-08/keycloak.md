@@ -5,9 +5,9 @@ quadrant: tools
 tags: [PRACTITIONER]
 ---
 
-[![](https://img.shields.io/badge/blog_post-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://archicionado.com/p/rbac/)
-[![](https://img.shields.io/badge/keycloak-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://www.keycloak.org/)
-[![](https://img.shields.io/badge/101-de5f85?logo=github&logoColor=000&style=flat)](https://github.com/RVR06/rbac)
+[![](https://img.shields.io/badge/blog_post-0c7cba?logo=gitbook&logoColor=fff&style=flat)](https://archicionado.com/p/rbac/)
+[![](https://img.shields.io/badge/keycloak-0c7cba?logo=keycloak&logoColor=fff&style=flat)](https://www.keycloak.org/)
+[![](https://img.shields.io/badge/101-de5f85?logo=github&logoColor=fff&style=flat)](https://github.com/RVR06/rbac)
 
 Open Source Identity and Access Management.
 - Add authentication to applications and secure services with minimum effort.

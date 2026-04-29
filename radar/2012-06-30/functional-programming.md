@@ -5,7 +5,7 @@ quadrant: staples
 tags: [PRACTITIONER]
 ---
 
-[![](https://img.shields.io/badge/101-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://github.com/readme/guides/functional-programming-basics)
+[![](https://img.shields.io/badge/101-0c7cba?logo=gitbook&logoColor=fff&style=flat)](https://github.com/readme/guides/functional-programming-basics)
 
 There are two main things you need to know to understand the concept:
 - Data is immutable: If you want to change data, such as an array, you return a new array with the changes, not the original.

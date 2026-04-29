@@ -5,7 +5,7 @@ quadrant: patterns
 tags: [EXPERT]
 ---
 
-[![](https://img.shields.io/badge/sample-de5f85?logo=github&logoColor=000&style=flat)](https://github.com/RVR06/aap/blob/main/adrs/custom/0014-fragment.md)
+[![](https://img.shields.io/badge/sample-de5f85?logo=github&logoColor=fff&style=flat)](https://github.com/RVR06/aap/blob/main/adrs/custom/0014-fragment.md)
 
 Adopt the reader point of view, surfacing compelling information at the top:
 - I can check metadata section and decide to leave if ADR status is not the one I am interested in

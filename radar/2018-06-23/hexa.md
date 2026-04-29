@@ -5,7 +5,7 @@ quadrant: staples
 tags: [EXPERT]
 ---
 
-[![](https://img.shields.io/badge/blog%20series-0c7cba?logo=gitbook&logoColor=000&style=flat)](https://archicionado.com/p/hexagonal-architecture/)
+[![](https://img.shields.io/badge/blog%20series-0c7cba?logo=gitbook&logoColor=fff&style=flat)](https://archicionado.com/p/hexagonal-architecture/)
 
 A well-known anti-pattern is the blob one ie a workspace - or more accurately a space - where everything is mixed up together, ending up with tight coupling, blurred boundaries, high maintenance cost, low ability to evolve, and more…
 
