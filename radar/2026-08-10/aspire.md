@@ -2,7 +2,7 @@
 title: .NET Aspire
 ring: adopt
 quadrant: platforms-and-operations
-tags: [ai integration, gpu workloads]
+tags: [PRACTITIONER]
 ---
 
 [![](https://img.shields.io/badge/workshop-19967d?logo=serverfault&logoColor=fff&style=flat)](https://catalog.us-east-1.prod.workshops.aws/workshops/e1493217-4bc7-42f4-87d9-e231acd743bc/en-US/)
